@@ -13,7 +13,7 @@ module.exports.getPostById = async function (postId) {
 };
 
 module.exports.updatePostById = async function (postId, update) {
-  return Post.findByIdAndUpdate(postId, update, { new: true });
+  return Post.findByIdAndUpdate(postId, update, {new: true});
 };
 
 module.exports.deletePostById = async function (postId) {
