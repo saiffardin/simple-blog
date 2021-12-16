@@ -3,7 +3,7 @@ const router = express.Router();
 const categoryController = require('../category/category.controller');
 
 router.get('/', function (req, res) {
-  return res.json({message: 'App is running : category'});
+    return res.json({message: 'App is running : category'});
 });
 
 // category APIs
